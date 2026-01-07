@@ -32,4 +32,5 @@ spec:
           configMap:
             name: glance-config
         - name: glance-assets
-          emptyDir: {}
+          confiMap:
+            name: glance-assets

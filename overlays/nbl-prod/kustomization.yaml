@@ -11,3 +11,6 @@ configMapGenerator:
   - files:
     - glance.yml=configs/glance.yml
     name: glance-config
+  - files:
+    - favicon.ico=assets/favicon.ico
+    name: glance-assets
